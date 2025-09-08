@@ -33,6 +33,7 @@ public class HelloWorldExercises {/*aqui se determina la clase y debe ser igual 
 
         System.out.print("Ingresa tu nombre: ");
         String nombre = sc.next(); // lee palabra
+        System.out.println(edad + nombre);
         try {
             PrintStream archivo = new PrintStream("salida.txt");
             System.setOut(archivo);
